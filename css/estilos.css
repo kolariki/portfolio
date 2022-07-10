@@ -73,8 +73,7 @@ p {
 }
 
 #d a {
-    color: red
-    ;
+    color: red;
 }
 
 #contacto footer {
@@ -189,7 +188,7 @@ p {
     background-color: #E20000;
 }
 
-#sobre-mi .card{
+#sobre-mi .card {
     height: 182px;
 }
 
@@ -200,31 +199,36 @@ p {
 #sobremi footer .fa-github {
     font-size: 30px;
     color: #E20000;
-    }
+}
 
 
-#idiomas .card-idioma{
+#idiomas .card-idioma {
     border-radius: 15px;
 }
-#idiomas .card{
+
+#idiomas .card {
     background-color: #370A6D;
     border-radius: 15px;
     padding: 40px 0;
 }
-#idiomas{
+
+#idiomas {
     background-color: #eee;
 }
-#idiomas h2{
+
+#idiomas h2 {
     font-size: 16px;
     font-weight: 600px;
 }
-#idiomas ul{
+
+#idiomas ul {
     padding: 0px;
     font-size: 14px;
     color: #282828;
     list-style-type: none;
 }
-#idiomas .fas{
+
+#idiomas .fas {
     font-size: 80px;
     color: white;
 }
@@ -344,63 +348,87 @@ h3 {
 
 
 
-#experiencia h2, #experiencia h4 {
+#experiencia h4 {
     color: #370A6D;
- }
- #experiencia h2, #formacion h2 {
-     font-weight: 400;
-     font-size: 24px
- }
- #formacion h2, #formacion h4{
-     color: #E20000;
- }
- #experiencia h3, #formacion h3{
-     color: #6A6A6A;
-     font-size: 18px;
-     font-weight: 600;
- 
- }
- #experiencia h4, #formacion h4{
-     font-size: 17px;
-     
- }
- #experiencia h5, #formacion h5{
-     color: #6A6A6A;
-     font-size: 14px;
+}
+
+#experiencia h2,
+#formacion h4 {
+    font-weight: 400;
+    font-size: 24px
+}
+
+#formacion h2 {
+    color: #E20000;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#experiencia h3,
+#formacion h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#experiencia h4,
+#formacion h4 {
+    font-size: 17px;
+
+}
+
+#experiencia h5,
+#formacion h5 {
+    color: #6A6A6A;
+    font-size: 14px;
 }
 
 #formacion .card {
     height: 90px
 }
-#formacion .img{
+
+#formacion .img {
     height: 60px;
 }
 
-#idiomas .card-idioma{
+#idiomas .card-idioma {
     border-radius: 15px;
 }
-#idiomas .card{
+
+#idiomas .card {
     background-color: #370A6D;
     border-radius: 15px;
     padding: 40px 0;
 }
-#idiomas{
+
+#idiomas {
     background-color: #eee;
 }
-#idiomas h2{
+
+#idiomas h2 {
     font-size: 16px;
     font-weight: 600px;
 }
-#idiomas ul{
+
+#idiomas ul {
     padding: 0px;
     font-size: 14px;
     color: #282828;
     list-style-type: none;
 }
-#idiomas .fas{
+
+#idiomas .fas {
     font-size: 80px;
     color: white;
-    }
+}
+
+#desarrollo h2 {
+    color: #E20000;
+    font-weight: 400;
+    font-size: 24px;
+
+}
 
 .baw {
     -webkit-filter: grayscale(100%);
