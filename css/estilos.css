@@ -184,6 +184,35 @@ p {
     background-color: #E20000;
 }
 
+#sobre-mi .card{
+    height: 182px;
+}
+#idiomas .card-idioma{
+    border-radius: 15px;
+}
+#idiomas .card{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
+
 h3 {
     font-size: 16px;
     color: #282828;
@@ -257,10 +286,12 @@ h3 {
     margin: 0 8px;
 }
 
-.foto-perfil {
-    border-radius: 700px;
-    height: 100px;
-    padding-bottom: 7px;
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
 }
 
 #yo h3 {
@@ -295,44 +326,38 @@ h3 {
     font-weight: 400;
 }
 
-#formacion h3, #cursos h3 {
-    font-size: 24px;
-    margin: 0px 0px 8px;
-    color: #E20000;
-    font-weight: 400;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
-#formacion h4, #cursos h4 {
-    font-size: 18px;
-    color: grey;
-    font-weight: 600;
-}
 
-#formacion, #cursos h5 {
-    font-size: 17px;
-    color: #E20000;
-    font-weight: 500;
-}
-
-#formacion h6, #cursos h6 {
-    font-size: 16px;
-    color: grey;
-    font-weight: 400;
-}
-
-#formacion p, #cursos p {
-    font-size: 16px;
-    color: grey;
-    font-weight: 400;
+#experiencia h2, #experiencia h4 {
+    color: #370A6D;
+ }
+ #experiencia h2, #formacion h2 {
+     font-weight: 400;
+     font-size: 24px
+ }
+ #formacion h2, #formacion h4{
+     color: #E20000;
+ }
+ #experiencia h3, #formacion h3{
+     color: #6A6A6A;
+     font-size: 18px;
+     font-weight: 600;
+ 
+ }
+ #experiencia h4, #formacion h4{
+     font-size: 17px;
+     
+ }
+ #experiencia h5, #formacion h5{
+     color: #6A6A6A;
+     font-size: 14px;
 }
 
 #formacion .card {
     height: 90px
 }
 #formacion .img{
-    height: 177px;
+    height: 60px;
 }
 
 #idiomas .card-idioma{
