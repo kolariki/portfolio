@@ -72,6 +72,11 @@ p {
     color: red;
 }
 
+#d a {
+    color: red
+    ;
+}
+
 #contacto footer {
     color: white;
 }
@@ -187,6 +192,17 @@ p {
 #sobre-mi .card{
     height: 182px;
 }
+
+#sobremi footer {
+    color: #E20000;
+}
+
+#sobremi footer .fa-github {
+    font-size: 30px;
+    color: #E20000;
+    }
+
+
 #idiomas .card-idioma{
     border-radius: 15px;
 }
@@ -294,10 +310,10 @@ h3 {
     border-radius: 50%;
 }
 
-#yo h3 {
-    font-size: 16px;
+#cursos h3 {
+    font-size: 24px;
     margin: 0px 0px 8px;
-    color: #370a6d;
+    color: #E20000;
     font-weight: 400;
     padding-bottom: 50px;
 }
