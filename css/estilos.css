@@ -184,22 +184,45 @@ p {
     color: #E20000;
 }
 
-#tecnologia {
-    background-color: #E20000;
+#yo footer {
+    color: #E20000;
 }
 
-#sobre-mi .card {
+#yo footer .fa-github {
+    font-size: 30px;
+    color: red;
+}
+
+#yo footer .fa-linkedin-in {
+    color: red;
+    background-color: red;
+    font-size: 20px;
+    border: 0px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+
+}
+
+#yo .card {
     height: 182px;
 }
 
-#sobremi footer {
-    color: #E20000;
+
+.color-gradiente {
+    background: rgba(184, 37, 20, 1);
+    background: -moz-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184, 37, 20, 1)), color-stop(47%, rgba(214, 52, 30, 1)), color-stop(70%, rgba(240, 47, 23, 1)), color-stop(100%, rgba(240, 47, 23, 1)));
+    background: -webkit-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -o-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b82514', endColorstr='#f02f17', GradientType=1);
 }
 
-#sobremi footer .fa-github {
-    font-size: 30px;
-    color: #E20000;
-}
 
 
 #idiomas .card-idioma {
@@ -243,11 +266,14 @@ h3 {
 
 
 #yo .card p {
-    height: 90px;
+    height: 100px;
 }
 
 #experiencia {
     background-color: white;
+}
+#experiencia h2{
+    color: #370a6d;
 }
 
 #inicio .div-cohete {
@@ -312,6 +338,7 @@ h3 {
     background-color: #fff;
     padding: 5px;
     border-radius: 50%;
+    width: 900px;
 }
 
 #cursos h3 {
