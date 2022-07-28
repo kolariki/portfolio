@@ -1,38 +1,5 @@
 <?php $pg = "contacto";
 
-if($_POST){
-    $nombre = $_POST["txtNombre"];
-    $correo = $_POST["txtCorreo"];
-    $telefono = $_POST["txtTelefono"];
-    $mensaje = $_POST["txtMensaje"];
-
-    //varios destinatarios
-    $para = "ivankolariki1990@gmail.com";
-    $titulo = 'Recibiste un mensaje desde tu web';
-
-    //mensaje
-    $cuerpo = "
-    Nombre: $nombre <br>
-    Correo: $correo <br>
-    Telefono: $telefono <br>
-    Mensaje: $mensaje
-    ";
-
-
-    //para enviar un correo HTML, debe establecerse la cabecera Content-type
-    $cabeceras = 'MIME-Version : 1.0' . "\r\n";
-    $cabeceras = 'Content-type: text/html; charset=UTF-8' . "\r\n";
-
-    //cabeceras adicionales
-    $cabeceras = 'To: ivankolariki1990@gmail.com' . "\r\n";
-    $cabeceras = 'From: ivankolariki1990@gmail.com' . "\r\n";
-
-
-    //Enviarlo
-    //mail($para, $titulo, $cuerpo, $cabeceras)
-    header("Location: confirmacion-envio.php");
-}
-
 ?>
 
 <!DOCTYPE html>
@@ -48,7 +15,7 @@ if($_POST){
     <link rel="stylesheet" href="css/estilos.css">
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="shortcut icon" href="images/IK.png"/>
-    <title>Contacto</title>
+    <title>Confirmacion-envio</title>
 </head>
 
 <body id="contacto">
@@ -60,35 +27,14 @@ if($_POST){
             <div class="row">
                 <div class="col-12 py-3">
                     <div class class="col-12">
-                        <h1>Contacto</h1>
+                        <h1>Gracias por contactarte,</h1>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6 col-12 py-4">
-                    <p>Te invito a que me contactes enviadome un Mensaje o bien por Whatsapp.</p>
+                    <p>te estare respondiendo a la brevedad.</p>
                 </div>
-                <div class="col-sm-6 col-12 py-4" id="form">
-                    <form action="" method="POST"></form>
-                    <div class="pb-3">
-                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control">
-                    </div>
-                    <div class="pb-3">
-                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control">
-                    </div>
-                    <div class="pb-3">
-                        <input type="text" name="txtTel" id="txtTel" placeholder="Telefono/Whatsapp"
-                            class="form-control">
-                    </div>
-                    <div class="pb-3">
-                        <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aqui tu mensaje"
-                            class="form-control"></textarea>
-                    </div>
-                    <div class="pb-3">
-                        <button name="btnEnviar" id="btnEnviar" class="btn">ENVIAR</button>
-                    </div>
-                </div>
-
             </div>
         </div>
         </div>
