@@ -1,10 +1,14 @@
-<?php $pg = "contacto";
+<?php
 
 if($_POST){
     $nombre = $_POST["txtNombre"];
     $correo = $_POST["txtCorreo"];
     $telefono = $_POST["txtTelefono"];
     $mensaje = $_POST["txtMensaje"];
+
+    if($nombre != "" && $correo != "" && $telefono != "" && $mensaje != "") {
+
+    
 
     //varios destinatarios
     $para = "ivankolariki1990@gmail.com";
@@ -31,6 +35,7 @@ if($_POST){
     //Enviarlo
     //mail($para, $titulo, $cuerpo, $cabeceras)
     header("Location: confirmacion-envio.php");
+}
 }
 
 ?>
@@ -68,25 +73,26 @@ if($_POST){
                 <div class="col-sm-6 col-12 py-4">
                     <p>Te invito a que me contactes enviadome un Mensaje o bien por Whatsapp.</p>
                 </div>
-                <div class="col-sm-6 col-12 py-4" id="form">
-                    <form action="" method="POST"></form>
+                <div class="col-sm-6 col-12 py-4">
+                    <form action="contacto.php" method="POST">
                     <div class="pb-3">
-                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control">
+                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control shadow">
                     </div>
                     <div class="pb-3">
-                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control">
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control shadow">
                     </div>
                     <div class="pb-3">
-                        <input type="text" name="txtTel" id="txtTel" placeholder="Telefono/Whatsapp"
-                            class="form-control">
+                        <input type="text" name="txtTelefono" id="txtTelefono" placeholder="Telefono/Whatsapp"
+                            class="form-control shadow">
                     </div>
                     <div class="pb-3">
                         <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aqui tu mensaje"
-                            class="form-control"></textarea>
+                            class="form-control shadow"></textarea>
                     </div>
                     <div class="pb-3">
-                        <button name="btnEnviar" id="btnEnviar" class="btn">ENVIAR</button>
+                        <button type="submit" name="btnEnviar" id="btnEnviar" class="btn px-4 shadow">ENVIAR</button>
                     </div>
+                    </form>
                 </div>
 
             </div>

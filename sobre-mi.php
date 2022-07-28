@@ -31,7 +31,7 @@
                     <h1 class="pb-4">Sobre mí</h1>
                     <p class="pb-5" style="font-size: 16px;"> Apasionado por la tecnología, siempre buscando aprender
                         algo nuevo, sumando conocimientos y experiencia a mi vida.</p>
-                    <a href="contacto.html" class="btn btn-rojo"> Enviar mensaje</a>
+                    <a href="contacto.php" class="btn btn-rojo"> Enviar mensaje</a>
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2 pb-4">
                     <img src="images/yo3.jpeg" alt="IVAN KOLARIK" title="IVAN KOLARIK" class="img-fluid img-circle">

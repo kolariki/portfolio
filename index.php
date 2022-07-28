@@ -39,7 +39,7 @@
         <div class="container pt-4 mx-auto">
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="proyectos.html" class="btn-blanco shadow"> Conoce mis proyectos </a>
+                    <a href="proyectos.php" class="btn-blanco shadow"> Conoce mis proyectos </a>
                 </div>
             </div>
         </div>
