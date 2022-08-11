@@ -45,7 +45,7 @@
 
 
             <div class="col-12 col-sm-4 p-4">
-                <div class="row border proyecto">
+                <div class="row border proyecto pb-5">
                     <div class="col-12 p-0">
                         <img src="images/abmclientes.png" alt=" AMB CLIENTES" class="img-fluid">
                         <h2> AMB CLIENTES</h2>
