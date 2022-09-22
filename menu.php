@@ -19,7 +19,7 @@
                 </li>
             </ul>
             <div class="d-inline">
-                <a href="images/CV Ivan Dario Kolarik (1).pdf" target="_blank" class="btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
+                <a href="images/CV Ivan Dario Kolarik (5).pdf" target="_blank" class="btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
             </div>
         </div>
     </div>

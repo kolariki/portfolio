@@ -1,5 +1,7 @@
 <?php
 
+$pg = "contacto";
+
 if($_POST){
     $nombre = $_POST["txtNombre"];
     $correo = $_POST["txtCorreo"];
@@ -34,7 +36,7 @@ if($_POST){
 
     //Enviarlo
     //mail($para, $titulo, $cuerpo, $cabeceras)
-    header("Location: confirmacion-envio.php");
+  
 }
 }
 
@@ -97,8 +99,7 @@ if($_POST){
 
             </div>
         </div>
-        </div>
-        </div>
+        
     </main>
     <footer class=" container mt-auto pb-4" id="c">
         <div class="row">
@@ -117,14 +118,13 @@ if($_POST){
             <div class="col-sm-3 col-12">
                 <a href="https://mail.google.com" target="_blank">ivankolariki1990@gmail.com</a>
             </div>
+            <div class="whatsapp" id="whatsapp">
+                <a href="https://wa.me/+543644389712" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
         </div>
         </div>
     </footer>
-    <div class="whatsapp" id="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=3644389712" target="_blank">
-            <i class="fa-brands fa-whatsapp"></i>
-        </a>
-    </div>
+    
 </body>
 
 </html>

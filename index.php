@@ -1,4 +1,4 @@
-<?php $pg = "index";?>
+<?php $pg = "index"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -18,7 +18,7 @@
 
 <body id="inicio">
     <header>
-    <?php include_once "menu.php" ?>
+        <?php include_once "menu.php" ?>
     </header>
     <main>
         <div class="container">
@@ -31,10 +31,10 @@
         <div class="container pt-4">
             <div class="row">
                 <div class="col-12 col-sm-6 text-center my-4 mt-sm-5 offset-sm-3 mb-3">
-                        <p>Bienvenid@ a mi sitio web sobre inicio en Full Stack</p>
-                    </div>
+                    <p>Bienvenid@ a mi sitio web sobre inicio en Full Stack</p>
                 </div>
             </div>
+        </div>
         </div>
         <div class="container pt-4 mx-auto">
             <div class="row">
@@ -47,8 +47,7 @@
     <footer class=" container mt-auto" id="c">
         <div class="row">
             <div class="col-sm-3 col-12">
-                <a href="https://www.linkedin.com/in/ivan-kolarik-15036a235" target="_blank"
-                    title="Agreganos en Linkedin">
+                <a href="https://www.linkedin.com/in/ivan-kolarik-15036a235" target="_blank" title="Agreganos en Linkedin">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a href="https://github.com/kolariki/portfolio" target="_blank" title="Github">
@@ -61,14 +60,15 @@
             <div class="col-sm-3 col-12">
                 <a href="https://mail.google.com" target="_blank">ivankolariki1990@gmail.com</a>
             </div>
+            <div class="whatsapp" id="whatsapp">
+                <a href="https://wa.me/+543644389712" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
         </div>
-        </div>
+
+
     </footer>
-    <div class="whatsapp" id="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=3644389712" target="_blank">
-            <i class="fa-brands fa-whatsapp"></i>
-        </a>
-    </div>
+
+
 </body>
 
 </html>

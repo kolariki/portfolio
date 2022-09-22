@@ -131,11 +131,8 @@
 
 
     <div class="whatsapp" id="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=3644389712" target="_blank">
-            <i class="fa-brands fa-whatsapp"></i>
-        </a>
-    </div>
-
+                <a href="https://wa.me/+543644389712" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
 
 </body>
 

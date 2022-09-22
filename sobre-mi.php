@@ -38,14 +38,11 @@
                 </div>
             </div>
         </div>
-
-
-
         <section id="tecnologia" class="color-gradiente pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="my-sm-5 text-white" style="font-size: 24px;">Stack tecnológico</h2>
+                        <h2 class="my-sm-5 text-white" style="font-size: 50px;">Stack tecnológico</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -403,17 +400,13 @@
             <div class="col-sm-3 col-12">
                 <a href="https://mail.google.com" target="_blank">ivankolariki1990@gmail.com</a>
             </div>
-        </div>
-        </div>
-    </footer>
-
-
-    <div class="whatsapp" id="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=3644389712" target="_blank">
-            <i class="fa-brands fa-whatsapp"></i>
-        </a>
+            <div class="whatsapp" id="whatsapp">
+                <a href="https://wa.me/+543644389712" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
     </div>
-
+        </div>
+       
+    </footer>
 
 </body>
 
